@@ -1,0 +1,87 @@
+DAY02
+
+总而言之，path是Windows查找.exe文件的路径；classpath是jvm（虚拟机）查找.class文件的路径
+
+1.注意：路径中的‘..’表示上级目录
+      路径中的‘.’表示当前目录
+
+
+2.关于Java源程序当中的注释：
+
+   *什么是注释？注释的作用是什么
+     - 出现在Java的源程序当中，对Java源程序解释说明
+     - 注释不会被编译到.class字节码文件当中
+     - 一个好的开发习惯应该是多编写注释，提高程序可读性
+
+   *Java中的注释怎么写呢？
+    - 单行注释
+      //单行注释，只注释当前行
+   
+    -多行注释
+    /*
+      多行注释
+      多行注释
+      多行注释
+    */
+
+    -Javadoc注释（专业注释，可以汲取注释放入帮助文档中，bin目录下的Javadoc.exe）
+      /**
+       * javadoc注释
+       * javadoc注释
+       * javadoc注释
+       * javadoc注释
+       * javadoc注释
+       * javadoc注释
+       */
+3.对hello world程序进行解释：
+需要记忆：
+  * public
+  * class
+  * static
+  * void
+  * System.out.println("");向控制台输出消息
+  * 类体
+  * 方法体
+  * 类体中不能直接编写Java语句【除声明变量职位】
+  * 一个Java语句必须以“;”结束
+  * 方法体中可以编写多条Java语句
+  * 主方法是程序入口，固定写法，SUN规定的。
+
+4.public class 和 class的区别：
+  
+  *一个Java源文件当中可以定义多个class
+
+  *一个Java源文件中不一定有public的class（public class不是必须的）
+
+  *一个class会对应生成对应xxx.class字节码文件
+
+  *一个Java源文件当中定义公开的类的话，只能有一个，并且该类名称必须和Java源文件名称一致。
+
+  *每一个class当中都可以编写main方法，都可以设定程序的入口，想执行B.class中的main方法：
+    -Java B（入口public static void mian(String[] args)
+                      System.out.println(...))
+
+  *注意：当在命令窗口中执行java Hello,那么要求Hello.class当中必须有主方法。
+  没有主方法会出现运行阶段的错误。
+
+
+5.总结第一章的内容：
+  *理解Java的加载与执行
+  *能够自己搭建java的开发环境
+  *能够独立编写hello world程序，编译并与运行
+  *掌握环境变量path的原理及如何配置
+  *掌握环境变量classpath的原理及如何配置
+  *Java中的注释
+  *public class和class的区别
+
+第二章 编程语言基础
+
+1.标识符
+
+2.关键字
+
+3.字面值
+
+4.变量
+
+5.数据类型
