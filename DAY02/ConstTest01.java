@@ -1,32 +1,32 @@
 /*
-   ¹ØÓÚ×ÖÃæÖµ£º
-     *×ÖÃæÖµ
-	     - 10¡¢100
+   å…³äºŽå­—é¢å€¼ï¼š
+     *å­—é¢å€¼
+	     - 10ã€100
 		 -"abc"
 		 -'a'
-		 -true¡¢false
-	 *×ÖÃæÖµ¾ÍÊÇÊý¾Ý¡£
+		 -trueã€false
+	 *å­—é¢å€¼å°±æ˜¯æ•°æ®ã€‚
 	 
-	 *×ÖÃæÖµÊÇJavaÔ´³ÌÐòµÄ×é³É²¿·ÖÖ®Ò»¡£°üÀ¨±êÊ¶·ûºÍ¹Ø¼ü×ÖËüÃÇ¶¼ÊÇJavaÔ´³ÌÐòµÄ×é³É²¿·Ö¡£
+	 *å­—é¢å€¼æ˜¯Javaæºç¨‹åºçš„ç»„æˆéƒ¨åˆ†ä¹‹ä¸€ã€‚åŒ…æ‹¬æ ‡è¯†ç¬¦å’Œå…³é”®å­—å®ƒä»¬éƒ½æ˜¯Javaæºç¨‹åºçš„ç»„æˆéƒ¨åˆ†ã€‚
 
-	 *Êý¾ÝÔÚÏÖÊµÊÀ½çµ±ÖÐÊÇ·ÖÃÅ±ðÀàµÄ£¬ËùÒÔÊý¾ÝÔÚ¼ÆËã»ú±à³ÌÓïÑÔµ±ÖÐÒ²ÊÇÓÐÀàÐÍµÄ£º¡¾Êý¾ÝÀàÐÍ¡¿
-	    -10¡¢100        ÊôÓÚÕûÊýÐÍ×ÖÃæÖµ
-		-3.14           ÊôÓÚ¸¡µãÐÍ×ÖÃæÖµ
-		-true¡¢false    ÊôÓÚ²¼¶ûÐÍ×ÖÃæÖµ
-		-"abc","ÖÐ¹úÈË" ÊôÓÚ×Ö·û´®ÐÍ×ÖÃæÖµ
-		-¡®A'¡¢'ÈË'      ÊôÓÚ×Ö·ûÐÍ×ÖÃæÖµ
+	 *æ•°æ®åœ¨çŽ°å®žä¸–ç•Œå½“ä¸­æ˜¯åˆ†é—¨åˆ«ç±»çš„ï¼Œæ‰€ä»¥æ•°æ®åœ¨è®¡ç®—æœºç¼–ç¨‹è¯­è¨€å½“ä¸­ä¹Ÿæ˜¯æœ‰ç±»åž‹çš„ï¼šã€æ•°æ®ç±»åž‹ã€‘
+	    -10ã€100        å±žäºŽæ•´æ•°åž‹å­—é¢å€¼
+		-3.14           å±žäºŽæµ®ç‚¹åž‹å­—é¢å€¼
+		-trueã€false    å±žäºŽå¸ƒå°”åž‹å­—é¢å€¼
+		-"abc","ä¸­å›½äºº" å±žäºŽå­—ç¬¦ä¸²åž‹å­—é¢å€¼
+		-â€˜A'ã€'äºº'      å±žäºŽå­—ç¬¦åž‹å­—é¢å€¼
 
-		*×¢Òâ£º
-		  JavaÓïÑÔµ±ÖÐËùÓÐµÄ×Ö·û´®ÐÍ×ÖÃæÖµ±ØÐëÊ¹ÓÃË«ÒýºÅÀ¨ÆðÀ´£¬Ë«ÒýºÅÊÇ°ë½Ç
-		  JavaÓïÑÔµ±ÖÐËùÓÐµÄ×Ö·ûÐÍ×ÖÃæÖµ±ØÐëÊ¹ÓÃµ¥ÒýºÅÀ¨ÆðÀ´£¬µ¥ÒýºÅÊÇ°ë½Ç
+		*æ³¨æ„ï¼š
+		  Javaè¯­è¨€å½“ä¸­æ‰€æœ‰çš„å­—ç¬¦ä¸²åž‹å­—é¢å€¼å¿…é¡»ä½¿ç”¨åŒå¼•å·æ‹¬èµ·æ¥ï¼ŒåŒå¼•å·æ˜¯åŠè§’
+		  Javaè¯­è¨€å½“ä¸­æ‰€æœ‰çš„å­—ç¬¦åž‹å­—é¢å€¼å¿…é¡»ä½¿ç”¨å•å¼•å·æ‹¬èµ·æ¥ï¼Œå•å¼•å·æ˜¯åŠè§’
 */
 public class ConTest01
 {
-	public static boid main(String[] args){
+	public static void main(String[] args){
 	    
 		System.out.println("abc");
 		
-		System.out.println("×î½üÄã¹ýµÄÔõÃ´Ñù");
+		System.out.println("æœ€è¿‘ä½ è¿‡çš„æ€Žä¹ˆæ ·");
 		
 		System.out.println(10);
 		
@@ -40,11 +40,11 @@ public class ConTest01
 		
 		System.out.println(3.14);
 
-		//±àÒë±¨´í£¬ÒòÎªµ¥ÒýºÅÖÐÖ»ÄÜ´æ·Åµ¥¸ö×Ö·û£¬ÊôÓÚ×Ö·ûÐÍ×ÖÃæÖµ
+		//ç¼–è¯‘æŠ¥é”™ï¼Œå› ä¸ºå•å¼•å·ä¸­åªèƒ½å­˜æ”¾å•ä¸ªå­—ç¬¦ï¼Œå±žäºŽå­—ç¬¦åž‹å­—é¢å€¼
 		//System.out.println('ABC');
 
-		//100ÊÇÒ»¸ö×ÖÃæÖµ£¬ÊÇÒ»¸öÕûÊýÐÍÊýÖµ£¬ÄÇÃ´¼ÈÈ»ÊÇÊý¾Ý´æ´¢ÔÚÄÚ´æµ±ÖÐ£¬
-		//±Ø¶¨»áÕ¼ÓÃÒ»¶¨µÄ¿Õ¼ä¡£
+		//100æ˜¯ä¸€ä¸ªå­—é¢å€¼ï¼Œæ˜¯ä¸€ä¸ªæ•´æ•°åž‹æ•°å€¼ï¼Œé‚£ä¹ˆæ—¢ç„¶æ˜¯æ•°æ®å­˜å‚¨åœ¨å†…å­˜å½“ä¸­ï¼Œ
+		//å¿…å®šä¼šå ç”¨ä¸€å®šçš„ç©ºé—´ã€‚
 		System.out.println(100);
 		System.out.println(100);
 		System.out.println(100);
