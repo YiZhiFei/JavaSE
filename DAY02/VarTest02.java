@@ -30,9 +30,10 @@ public class VarTest02
 
 		int k = 100;
 		*/
-		int i = 90;//这是重新开辟的，不能重名，这是错的
 		
-		System.out.println(i);
+		//int i = 90;这是重新开辟的，不能重名，这是错的
+		
+		//System.out.println(i);
 
 	
 	}
