@@ -26,7 +26,7 @@ public class VarTest03
 		System.out.println(k);//可以
 
 	   //以下会编写一个for循环语句
-	   //这个for循环后面的孔子语句的时候详细讲解
+	   //这个for循环后面详细讲解
 	   for(int a=0;a<10;a++){//a变量的作用域是整个for循环，for循环结束之后，a变量的内存就释放了
 	   
 	   }
