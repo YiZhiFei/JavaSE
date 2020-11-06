@@ -21,7 +21,45 @@ public class OOTest01
 	//Student是一个引用数据类型
 	//s是一个变量名
 	//new Student()是一个学生对象
+   Student s = new Student();
 
-	Student s = new Student();
+   //访问实例变量的语法格式
+   // 读取数据： 引用.变量名
+   // 修改数据： 引用.变量名 = 值
+   int stuNo = s.no;
+   String stuName = s.name;
+   int stuAge = s.sex;
+   boolean stuSex = s.sex;
+   String stuAddr = s.addr;
+
+   System.out.println("学号 =" + stuNo);//0
+   System.out.println("姓名 =" + stuName);//null
+   System.out.println("年龄 =" + stuAge);//0
+   System.out.println("性别 =" + stuSex);//false
+   System.out.println("住址 =" + stuAddr);//null
+
+
+    //再通过类实例化一个全新的对象
+   //stu是一个引用
+   //stu同时也是一个局部变量
+   //Student是变量的数据类型
+   Student stu = new Student();
+
+   System.out.println(stu.no);//0
+   System.out.println(stu.name);//null
+   System.out.println(stu.sex);//0
+   System.out.println(stu.age);//false
+   System.out.println(stu.addr);//null
+
+   //编译报错，no这个实例变量不能直接采用“类名”的方式访问
+   //因为no是实例变量，对象级别的变量，变量存储在java对象的内部，必须先有对象。
+   //System.out.println(Student.no);
 	}
 }
+/*
+   局部变量在栈内存中存储
+   成员变量中的实例变量在堆内存的java对象内部存储（见图）
+
+   实例变量是一个对象一份，100个对象有100份。
+
+*/
