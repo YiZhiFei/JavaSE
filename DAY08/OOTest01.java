@@ -21,6 +21,11 @@ public class OOTest01
 	//Student是一个引用数据类型
 	//s是一个变量名
 	//new Student()是一个学生对象
+	//s是一个局部变量【在栈内存中存储】
+	//什么是对象？new运算符在堆内存中开辟的内存空间称为对象。
+	//什么是引用？引用是一个变量，只不过这个变量保存了另一个java对象的内存地址。
+	//Java语言当中，程序员不能直接操作堆内存，java中没有指针。不像c语言。
+	//Java语言当中，程序员只能通过“引用”去访问堆内存当中对象内部的实例变量。
    Student s = new Student();
 
    //访问实例变量的语法格式
@@ -37,7 +42,11 @@ public class OOTest01
    System.out.println("年龄 =" + stuAge);//0
    System.out.println("性别 =" + stuSex);//false
    System.out.println("住址 =" + stuAddr);//null
-
+   
+   s.no = 10;
+   s.name = "jack";
+   s.age = 20;
+   s.addr = "北京";
 
     //再通过类实例化一个全新的对象
    //stu是一个引用
@@ -51,7 +60,7 @@ public class OOTest01
    System.out.println(stu.age);//false
    System.out.println(stu.addr);//null
 
-   //编译报错，no这个实例变量不能直接采用“类名”的方式访问
+   //编译报错，no这个实例变量不能直接采用“类名”的方式访问【不能 类名.实例变量】
    //因为no是实例变量，对象级别的变量，变量存储在java对象的内部，必须先有对象。
    //System.out.println(Student.no);
 	}
