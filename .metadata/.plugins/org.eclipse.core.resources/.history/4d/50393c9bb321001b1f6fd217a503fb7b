@@ -1,0 +1,18 @@
+package com.njxxyizhifei.javase.day09.test004;
+/**
+ * 
+ * 构造方法的作用：
+ *      1.创建对象
+ *      2.创建对象的同时，初始化实例变量的内存空间。
+ *
+ */
+public class ConstructorTest02 {
+	public static void main(String[] args){
+		
+		//在myeclipse当中怎么查看访问的是哪个属性，查看访问的是哪个方法？
+		//按ctrl键，鼠标移动到查看的元素上，出现下划线的时候开始单击。
+		//创建对象
+		Account act1 = new Account();
+	}
+
+}
