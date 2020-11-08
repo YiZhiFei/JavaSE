@@ -1,0 +1,15 @@
+package com.njxxyizhifei.javase.day09.test004;
+
+public class User {
+
+	
+	  public User(){ 
+		  System.out.println("User's Default Constructor Invoke!");
+	  }
+	 
+
+	// 有参数的构造方法
+	public User(int i) {
+		System.out.println("User's Default Constructor Invoke!");
+	}
+}
