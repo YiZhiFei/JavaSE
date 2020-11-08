@@ -1,0 +1,18 @@
+package com.njxxyizhifei.javase.day09.test003;
+
+public class CustomerTest {
+
+	public static void main(String[] args) {
+         Customer c = new Customer();
+         c.setId(id);
+         c.setName(name);
+         c.setAge(age);
+         c.setAddr(addr);
+         
+         System.out.println(c.getId());
+         System.out.println(c.getName());
+         System.out.println(c.getAge());
+         System.out.println(c.getAddr());
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.njxxyizhifei.javase.day09.test003;
+/**
+ *  封装的步骤：
+ *   1.所有的属性私有化，使用private关键字进行修饰，private表示私有的，修饰所有数据只能在本类中访问
+ *
+ */
+public class User {
+	private int age;
+
+}

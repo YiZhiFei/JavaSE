@@ -1,0 +1,16 @@
+package com.njxxyizhifei.javase.day09.test003;
+
+public class UserTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		// 创建User对象
+		User user = new User();
+		
+		System.out.println(user.age);
+	}
+
+}

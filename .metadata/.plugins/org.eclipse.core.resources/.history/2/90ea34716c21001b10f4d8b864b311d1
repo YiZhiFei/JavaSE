@@ -1,0 +1,20 @@
+package com.njxxyizhifei.javase.day09.test003;
+
+public class CustomerTest {
+
+	public static void main(String[] args) {
+        
+		Customer c = new Customer();
+        
+		c.setId(12);
+         c.setName("YiZhiFei");
+         c.setAge(20);
+         c.setAddr("ÄÏ¾©ÊÐ");
+         
+         System.out.println(c.getId());
+         System.out.println(c.getName());
+         System.out.println(c.getAge());
+         System.out.println(c.getAddr());
+	}
+
+}
