@@ -121,7 +121,7 @@ public class MethodTest03//表示定义一个公开的类，起名MethodTest03，由于是公开i的
 	//方法名:sum
 	//形式参数列表：(int x,int y)
 	//方法体：主要认为是求和之后输出计算结果
-	public static void sum(int i,jint j){
+	public static void sum(int i,int j){
 	   System.out.println(i + "+" + j + "=" (i + j));
 	}
 
