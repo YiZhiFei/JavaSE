@@ -20,7 +20,7 @@ public class MethodTest01
 
 	public static int sumInt(int i,int j){
 	     int result = i + j;
-		 int temp = 3;
+		 int num = 3;
 		 divide(result,num);
 		 return retValue;
 	}
