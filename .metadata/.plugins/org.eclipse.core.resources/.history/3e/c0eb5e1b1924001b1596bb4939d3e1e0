@@ -1,0 +1,19 @@
+package com.njxxyizhifei.javase.day10.test003;
+
+public class User {
+   //属性
+	private int id;
+    private String name;
+   
+    //构造函数
+    //Setter and getter;
+    /*
+    public void setId(int a){
+    	id = a;
+    }
+    */
+    
+    public void setId(int id){
+    	id = id;
+    }
+}

@@ -1,0 +1,21 @@
+package com.njxxyizhifei.javase.day10;
+
+public class CustomerTest {
+
+	public static void main(String[] args) {
+		
+		//创建Customer对象
+		Customer c1 = new Customer();
+		
+		//再创建Customer对象
+		Customer c2 = new Customer();
+
+	}
+    //不带有static关键字的一个方法
+	//顾客购物的行为
+	//每一个顾客购物最终结果是不一样的
+	//所以购物这个行为是属于对象级别的行为
+	//由于每一个对象在执行购物这个动作的时候最终结果不同，所以购物这个动作必须有“对象”的参与。
+	//重点：没有static关键字的方法被称为“实例方法”
+	//重点：没有static关键字的变量被称为“实例变量”
+}

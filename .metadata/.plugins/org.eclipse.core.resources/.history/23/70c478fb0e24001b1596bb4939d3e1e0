@@ -1,0 +1,15 @@
+package com.njxxyizhifei.javase.day10;
+
+public class CustomerTest {
+
+	public static void main(String[] args) {
+		
+		//创建Customer对象
+		Customer c1 = new Customer();
+		
+		//再创建Customer对象
+		Customer c2 = new Customer();
+
+	}
+ 
+}

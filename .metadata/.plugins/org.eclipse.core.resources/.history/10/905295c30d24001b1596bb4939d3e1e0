@@ -1,0 +1,20 @@
+package com.njxxyizhifei.javase.day10;
+
+/**
+ * 关于java语言当中的this关键字：
+ *       1.this是一个关键字，翻译为：这个
+ *       2.this是一个引用，this这个变量，this变量中保存了内存地址指向了自身，this存储在JVM堆内存java对象内部。
+ *       3.创建100个java对象，每一个对象都有this，也就是说100个不同的this
+ *       4.
+ *
+ */
+public class Customer {
+
+	//姓名【堆内存的对象内部中存储，所以访问该数据的时候，必须先创建对象，通过引用方式访问】
+	String name;//实例变量：必须采用“引用”的方式访问
+	
+	//构造方法
+	public Customer(){
+		
+	}
+}

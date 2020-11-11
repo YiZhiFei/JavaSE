@@ -13,6 +13,10 @@ public class Account {
 	  balance = d;
 	  //actno = null;
   }
+  public Account(String s,double d){
+	  actno = s;
+	  balance = d;
+  }
 	public String getActno() {
 		return actno;
 	}
@@ -34,7 +38,7 @@ public class Account {
 	
 	//无参数构造器
 	public Account(){
-		//初始化实例变量的内存空间
+    //初始化实例变量的内存空间
 		
 		
 	}

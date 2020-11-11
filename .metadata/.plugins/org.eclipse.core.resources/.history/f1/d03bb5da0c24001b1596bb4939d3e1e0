@@ -1,0 +1,18 @@
+package com.njxxyizhifei.javase.day10;
+
+/**
+ * 关于java语言当中的this关键字：
+ *       1.this是一个关键字，翻译为：这个
+ *       2.
+ *
+ */
+public class Customer {
+
+	//姓名
+	String name;
+	
+	//构造方法
+	public Customer(){
+		
+	}
+}

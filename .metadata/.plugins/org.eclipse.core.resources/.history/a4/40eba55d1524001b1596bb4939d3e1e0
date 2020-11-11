@@ -1,0 +1,21 @@
+package com.njxxyizhifei.javase.day10.test003;
+
+public class ThisTest {
+
+    //带有static
+	//主方法
+	public static void main(String[] args) {
+		//调用doSome
+		ThisTest.doSome();
+		
+		//调用doSome
+	    doSome();
+	
+	}
+	
+	//带有static
+	public static void doSome(){
+		System.out.println("do Some!");
+	}
+
+}

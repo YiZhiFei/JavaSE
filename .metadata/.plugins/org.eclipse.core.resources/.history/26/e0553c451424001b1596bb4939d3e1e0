@@ -1,0 +1,17 @@
+package com.njxxyizhifei.javase.day10.test002;
+
+public class ThisText {
+	
+	//实例变量（引用.的方式访问）
+	int num = 10;
+
+	//带有static的方法
+	//JVM负责调用main方法，JVM是怎么调用的？
+	//ThisTest.main(String[]);
+	public static void main(String[] args) {
+		
+		System.out.println(num);
+
+	}
+
+}

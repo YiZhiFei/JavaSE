@@ -44,5 +44,9 @@ public class ConstructorTest02 {
 		System.out.println("’À∫≈£∫"+act3.getActno());	//null
 		System.out.println("”‡∂Ó£∫"+act3.getBalance());//10000
 		
+        Account act4 = new Account("act-001",10000.0);
+		
+		System.out.println("’À∫≈£∫"+act4.getActno());	//null
+		System.out.println("”‡∂Ó£∫"+act4.getBalance());//10000
 	}
 }
