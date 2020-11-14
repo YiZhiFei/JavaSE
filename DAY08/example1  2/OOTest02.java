@@ -9,7 +9,7 @@ public class OOTest02
 		 //u保存内存地址只想堆内存的User对象
 		 User u = new User();
 
-		 //输出Sser对象内部实例变量的值
+		 //输出User对象内部实例变量的值
 		 System.out.println(u.no);//0
 		 System.out.println(u.name);//null
 		 System.out.println(u.addr);//null
