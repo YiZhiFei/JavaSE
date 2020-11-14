@@ -1,0 +1,19 @@
+package com.njxxyizhifei.javase.day10.test007;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Test.doSome();
+		doSome();
+		
+		Test t = new Test();
+		t.doSome();
+
+	}
+	
+	//带有static的方法，需要使用“类名.”的方式访问
+	public static void doSome(){
+		System.out.println("do Some!");
+	}
+
+}

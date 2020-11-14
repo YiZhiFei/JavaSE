@@ -2,8 +2,11 @@ package com.njxxyizhifei.javase.day10.test005;
 
 /**
  * 自定义的日期类型
- * @author WeiJiaHui
  *
+ * this可以用在哪里：
+ *      1.可以使用在实例方法当中，代表当前对象【语法格式：this.】
+ *      2.可以使用在构造方法当中，通过当前的构造方法调用其它的构造方法【语法格式：this(实参);】
+ *      【重点记忆】：this();只能用在构造方法第一行。
  */
 public class Date {
       //属性
@@ -24,6 +27,7 @@ public class Date {
 	 * 
 	 */
 	public Date(){
+		
 		/*
 		this.year = 1970;
 		this.month = 1;
@@ -35,7 +39,7 @@ public class Date {
 		
 		//需要采用以下的语法来完成构造方法的调用
 		//这种方式不会创建新的java对象。但同时又可以达到调用其它的构造方法。
-		this(1970,1,1);
+		this(1970,1,1);//this();这种语法只能出现在构造函数第一行。
 		
 	}
 	
