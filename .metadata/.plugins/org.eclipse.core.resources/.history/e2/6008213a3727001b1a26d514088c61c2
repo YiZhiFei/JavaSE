@@ -1,0 +1,26 @@
+package com.njxxyizhifei.javase.day10.test010;
+/**
+ * 实例代码块/语句块【了解内容，实际运用非常少】
+ * @author WeiJiaHui
+ *
+ */
+public class Test {
+	public Test(){
+		System.out.println("Test类的缺省构造器执行");
+	}
+	{
+		System.out.println(1);
+	}
+	{
+		System.out.println(2);
+	}
+	{
+		System.out.println(3);
+	}
+	public static void main(String[] args) {
+		System.out.println("main begin");
+		new Test();
+		new Test();
+	}
+
+}

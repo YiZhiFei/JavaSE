@@ -1,0 +1,24 @@
+package com.njxxyizhifei.javase.day10.test010;
+/**
+ * 可以使用static关键字来定义“静态代码块”；
+ * 
+ * 1.语法格式：
+ *     static{
+ *        java语句;
+ *     }
+ *     
+ * 2.静态代码块在类加载时执行，并且只执行一次。
+ * 
+ * 3.
+ * @author WeiJiaHui
+ *
+ */
+public class StaticTest01 {
+
+	static{
+		System.out.println("类加载");
+	}
+	public static void main(String[] args) {
+		System.out.println("main begin");
+	}
+}

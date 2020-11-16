@@ -1,0 +1,11 @@
+package com.njxxyizhifei.javase.day10.test013;
+
+public class Parrot extends Bird {
+
+	public void move() {
+		// TODO Auto-generated method stub
+		super.move("鹦鹉飞不起来");
+	}
+ //可以直接利用快捷继承
+	
+}

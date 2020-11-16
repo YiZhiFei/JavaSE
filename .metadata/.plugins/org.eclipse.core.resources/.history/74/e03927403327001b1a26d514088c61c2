@@ -1,0 +1,27 @@
+package com.njxxyizhifei.javase.day10.test009;
+/**
+ * “中国人”类
+ *
+ */
+public class Chinese {
+	
+	//身份证号【每一个对象的身份证号不同】
+	 String id;
+	
+	//姓名【每一个对象的姓名不同】
+	 String name;
+	
+	//国籍【所有对象国籍都一样，这种特征属于类级别的特征，可以提升为整个模板的特征，可以在变量前添加static关键字修饰】
+	//静态变量，静态变量在类加载的时候初始化，不需要创建对象，内存就开辟了。	
+	static String country;//不属于个体特征，提升到模板级别
+	
+	public Chinese() {
+	}
+	
+	public Chinese(String id,String name,String country) {
+		this.id = id;
+		this.name = name;
+		this.country = country;
+	}
+
+}

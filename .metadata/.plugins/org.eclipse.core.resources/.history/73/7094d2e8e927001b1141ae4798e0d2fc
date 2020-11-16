@@ -1,0 +1,14 @@
+package com.njxxyizhifei.javase.day11.test001;
+
+/**
+ * 关于java语言当中的多态语法机制：
+ *      1.Animal、Cat、Bird三个类之间的关系：
+ *         Cat继承Animal
+ *         Bird继承Animal
+ *         Cat和Bird之间没有任何继承关系
+ * @author WeiJiaHui
+ *
+ */
+public class Test {
+
+}

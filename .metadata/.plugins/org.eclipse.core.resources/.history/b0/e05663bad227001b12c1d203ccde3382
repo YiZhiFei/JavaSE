@@ -1,0 +1,11 @@
+package com.njxxyizhifei.javase.day10.test012;
+
+public class ExtendsTest {
+/**
+ * 关于java语言当中的继承
+ */
+	public static void main(String[] args) {
+
+	}
+
+}

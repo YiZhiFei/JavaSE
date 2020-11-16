@@ -1,0 +1,21 @@
+package com.njxxyizhifei.javase.day10.test010;
+/**
+ * ÊµÀı´úÂë¿é
+ * @author WeiJiaHui
+ *
+ */
+public class Test {
+	{
+		System.out.println(1);
+	}
+	{
+		System.out.println(2);
+	}
+	{
+		System.out.println(3);
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

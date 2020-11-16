@@ -1,0 +1,14 @@
+package com.njxxyizhifei.javase.day10.test010;
+
+public class MainTest {
+/**
+ * public表示公开的，在任何位置都是可以访问的
+ * 
+ * @param args
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

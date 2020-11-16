@@ -1,0 +1,5 @@
+package com.njxxyizhifei.javase.day10.test013;
+
+public class Parrot extends Bird {
+ //可以直接快捷继承
+}

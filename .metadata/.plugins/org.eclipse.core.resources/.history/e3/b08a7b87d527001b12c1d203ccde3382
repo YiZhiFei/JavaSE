@@ -1,0 +1,7 @@
+package com.njxxyizhifei.javase.day10.test012;
+
+public class CreditAccount {
+	private String actno;
+	private double balance;
+	private double credit;
+}

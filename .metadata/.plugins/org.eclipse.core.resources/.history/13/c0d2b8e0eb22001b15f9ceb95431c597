@@ -1,8 +1,0 @@
-package com.njxxyizhifei.javase.day09.test004;
-
-public class ConstructorTest03 {
-    public static void main(String[] args){
-    	
-    Customer c1 = new Customer
-    }
-}
