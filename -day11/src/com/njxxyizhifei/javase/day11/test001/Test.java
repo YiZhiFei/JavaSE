@@ -110,7 +110,7 @@ public class Test {
 	 *    类型转换异常，这种异常总是在“向下转型的时候”会发生。
 	 */
 
-	Cat c3 = (Cat)a3;
+	
 	
 	/**
 	 * 1.以上异常只有在强制类型转换的时候会发生，也就是说“向下转型”存在隐患！（编译过了，但是运行错了！）
@@ -135,7 +135,18 @@ public class Test {
 	 *              a这个引用指向的对象是一个Animal类型。
 	 *          false表示：
 	 *              a这个引用指向的对象不是一个Animal类型。
+	 *              
+	 *    Java规范中要求，在进行强制类型转换之前，建议采用instanveof运算符进行判断，避免编译错误
 	 */
+	  
+	if(a3 instanceof Cat){//a3是一个 Cat类型的对象
+	Cat c3 = (Cat)a3;
+	//调用子类对象中特有的方法
+	}
+	else if(a3 instanceof Bird){//a3是一个Bird类型的对象
+		Bird b2 =(Bird)a3;
+		b2.fly();
+	}
 	}
 }
 

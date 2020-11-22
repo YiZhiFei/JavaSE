@@ -6,4 +6,8 @@ public class Bird extends Animal {
 	public void move(){
 		System.out.println("鸟在飞行");
 	}
+	
+	public void fly(){
+		System.out.println("鸟吃果子");
+	}
 }
